@@ -3,7 +3,7 @@ function Contact() {
   return (
     <div className="contact-container">
         <h className="contact-head">Contact</h>
-      <form name="contact" netlify>
+      <form name="contact" method="POST" netlify>
         <p>
           <label>
             Name <input type="text" name="name"/>

@@ -1,0 +1,40 @@
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 130px;
+  }
+  
+  .skills-head {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .skills-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .skills-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .skills-card :hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .skills-card image{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  

@@ -66,6 +66,7 @@ body {
   box-shadow: 0 5px 16px rgba(255, 255, 255, 0.2);
 }
 
+
 .contact-icon svg:hover {
   color: red;
   transform: scale(1.1);
@@ -97,4 +98,9 @@ body {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align items */
     gap: 50px;
-  }}
+
+  }
+  .left-side-home{
+    margin-left: -70px;
+  }
+}

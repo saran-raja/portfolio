@@ -11,7 +11,7 @@ import profile from "./saran-profile.jpg";
 function Home() {
   return (
     <div className="home-container">
-      <div>
+      <div className="left-side-home">
         <section className="contact-icon">
           <a
             href="https://github.com/yourprofile"

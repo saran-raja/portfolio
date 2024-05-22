@@ -10,7 +10,6 @@ function App() {
       <Home />
       <Contact />
     </div>
-    // it is updated 
   );
 }
 

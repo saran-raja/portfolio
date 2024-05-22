@@ -5,7 +5,7 @@ body {
 
 .home-container {
   display: flex;
-  background-color: rgb(20, 20, 20);
+  
   color: white;
   max-width: 100%;
   padding: 92px;

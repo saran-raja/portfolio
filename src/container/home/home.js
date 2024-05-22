@@ -12,13 +12,25 @@ function Home() {
   return (
     <div className="home-container">
       <section className="contact-icon">
-        <a href="https://github.com/yourprofile" target="_blank">
+        <a
+          href="https://github.com/yourprofile"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GithubOutlined />
         </a>
-        <a href="https://www.linkedin.com/in/saran2653" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/saran2653"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LinkedinOutlined />
         </a>
-        <a href="mailto:your.email@example.com" target="_blank">
+        <a
+          href="mailto:your.email@example.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <MailOutlined />
         </a>
       </section>

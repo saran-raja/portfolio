@@ -5,13 +5,8 @@ function Contact() {
   return (
     <div className="contact-container">
       <h1 className="contact-head">Contact</h1>
-      <form
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        action="/contact"
-        data-netlify-honeypot="bot-field"
-      >
+      <form name="contact" method="POST" action="/contact">
+        {/* sample */}
         <input type="hidden" name="form-name" value="contact" />
         <p style={{ display: "none" }}>
           <label>

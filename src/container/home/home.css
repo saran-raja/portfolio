@@ -50,6 +50,7 @@ body {
   flex-direction: column;
   text-align: left;
   margin-top: 70px;
+  
 }
 .profile {
   width: 220px;
@@ -57,4 +58,12 @@ body {
   border-radius: 10%;
   border: 4px solid #ffffff;
   margin: 70px 220px;
+}
+.contact-icon svg:hover {
+  color: red;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.contact-icon a{
+  color: white;
 }

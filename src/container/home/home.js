@@ -12,9 +12,15 @@ function Home() {
   return (
     <div className="home-container">
       <section className="contact-icon">
-        <GithubOutlined />
-        <LinkedinOutlined />
-        <MailOutlined />
+        <a href="https://github.com/yourprofile" target="_blank">
+          <GithubOutlined />
+        </a>
+        <a href="https://www.linkedin.com/in/saran2653" target="_blank">
+          <LinkedinOutlined />
+        </a>
+        <a href="mailto:your.email@example.com" target="_blank">
+          <MailOutlined />
+        </a>
       </section>
       <img src={profile} alt="profile" className="profile" />
       <section className="text-content">

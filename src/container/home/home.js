@@ -29,7 +29,7 @@ function Home() {
         </p>
         <Button
           className="custom-button"
-          onClick={() => (window.location.href = "mailto:your@email.com")}
+          onClick={() => (window.location.href = "mailto:saran26053@gmail.com")}
           icon={<MailOutlined />}
         >
           Contact Me

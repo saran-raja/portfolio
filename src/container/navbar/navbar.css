@@ -35,7 +35,7 @@ body {
 
 .navbar-ul li:hover {
   color: black;
-  background-color: red;
+  background-color: rgb(248, 32, 32);
   cursor: pointer;
   font-weight: 450;
  

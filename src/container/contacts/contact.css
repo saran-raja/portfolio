@@ -1,0 +1,55 @@
+body {
+  /* background-color: rgb(20, 20, 20); */
+}
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #393939;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-head {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1em;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #c71212;
+}

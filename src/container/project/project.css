@@ -1,0 +1,40 @@
+.project-container .project-head h {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  font-size: 30px;
+  font-style: normal;
+}
+.project-container .project-head {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 350;
+  font-size: 14px;
+  font-style: normal;
+}
+.project img {
+  width: 40%;
+  height: auto;
+}
+.slider {
+  width: 100%;
+}
+.slider img {
+  width: 100%;
+  height: 300px;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.project-slider {
+  width: 50%;
+}
+@media (max-width: 768px) {
+    .project-slider {
+        width: 80%;
+      }
+  }

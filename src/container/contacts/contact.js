@@ -4,7 +4,7 @@ import "./contact.css";
 function Contact() {
   return (
     <div className="contact-container">
-      <h1 className="contact-head">Contact</h1>
+      <h1 className="contact-head">Contact Me</h1>
       <form name="contact" method="POST" action="/contact">
         {/* sample */}
         <input type="hidden" name="form-name" value="contact" />
@@ -13,22 +13,30 @@ function Contact() {
             Don’t fill this out if you're human: <input name="bot-field" />
           </label>
         </p>
-        <p>
-          <label>
-            Your Name: <input type="text" name="name" required />
-          </label>
+        <section className="name-email-input">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name"  required />
+          </p>
+          <p>
+            <label>Email </label>
+
+            <input type="email" name="email" required />
+          </p>
+        </section>
+
+        <p className="text-area">
+          <label className="msg-input">
+            Message</label>
+            <textarea
+              className="text-msg"
+              name="message"
+              // placeholder="Message"
+              required
+            ></textarea>
+         
         </p>
-        <p>
-          <label>
-            Your Email: <input type="email" name="email" required />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message: <textarea name="message" required></textarea>
-          </label>
-        </p>
-        <p>
+        <p className="submit-btn">
           <button type="submit">Send</button>
         </p>
       </form>

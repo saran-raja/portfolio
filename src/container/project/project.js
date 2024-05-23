@@ -8,9 +8,8 @@ import product1s5 from "./p1s4.png";
 function Project() {
   const contentStyle = {
     margin: 0,
-    height: "160px",
+    height: "300px",
     color: "#fff",
-    lineHeight: "160px",
     textAlign: "center",
     background: "#364d79",
   };
@@ -25,19 +24,19 @@ function Project() {
         <div className="project">
           <Carousel arrows infinite={false} className="slider">
             <div>
-              <img src={product1s1} alt="project"></img>
+              <img src={product1s1} style={contentStyle} alt="project"></img>
             </div>
             <div>
-            <img src={product1s2} alt="project"></img>
+            <img src={product1s2} style={contentStyle} alt="project"></img>
             </div>
             <div>
-            <img src={product1s3} alt="project"></img>
+            <img src={product1s3} style={contentStyle} alt="project"></img>
             </div>
             <div>
-            <img src={product1s4} alt="project"></img>
+            <img src={product1s4} style={contentStyle} alt="project"></img>
             </div>
             <div>
-            <img src={product1s5} alt="project"></img>
+            <img src={product1s5} style={contentStyle} alt="project"></img>
             </div>
             
           </Carousel>

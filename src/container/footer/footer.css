@@ -10,8 +10,14 @@
 .footer-container ul{
     list-style: none;
     display: flex;
-    gap: 30px;
+  align-items: center;
+    /* gap: 30px; */
 }
+.footer-container li {
+    width: 100px;
+    padding: 10px;
+}
+
 .footer-content{
     display: flex;
     justify-content: center;
@@ -47,6 +53,16 @@
     color: #ddd;
     margin-bottom: 20px;
   }
+  .footer-container  li:hover{
+        color: black;
+        background-color: rgb(248, 32, 32);
+        cursor: pointer;
+        font-weight: 450;
+        border-radius: 5px;
+       
+      }
+ 
+   
   @media (max-width: 768px) {
     .footer-container ul {
       flex-direction: column;

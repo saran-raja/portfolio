@@ -2,9 +2,9 @@ import { Carousel } from "antd";
 import "./project.css";
 import product1s1 from "./project1.png";
 import product1s2 from "./p1s2.png";
-import product1s3 from "./p1s2.png";
-import product1s4 from "./p1s3.png";
-import product1s5 from "./p1s4.png";
+import product1s3 from "./p1s3.png";
+import product1s4 from "./p1s4.png";
+import product1s5 from "./p1s5.png";
 function Project() {
   const contentStyle = {
     margin: 0,

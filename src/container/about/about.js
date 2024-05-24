@@ -18,7 +18,8 @@ function About() {
         // download="resume_html.pdf"
         className="download-btn"
       >
-        <Button className="downloadcv-btn">Download CV</Button>
+        <Button className="viewcv-btn">View resume</Button>
+        <Button className="downloadcv-btn">Download resume</Button>
       </a>
     </div>
   );

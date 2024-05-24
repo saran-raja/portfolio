@@ -23,15 +23,33 @@
   margin-bottom: 15px;
   line-height: 1.6;
 }
-.downloadcv-btn {
+/* .downloadcv-btn {
   background-color: rgb(143, 141, 141);
   color: white;
   border: none;
   border-radius: 4px;
   font-size: 1em;
   cursor: pointer;
-}
+} */
 
 .downloadcv-btn:hover {
   background-color: #c71212;
+}
+.download-btn {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+@media (max-width: 768px) {
+  .download-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .viewcv-btn,
+  .downloadcv-btn {
+    width: 200px;
+  }
 }

@@ -43,7 +43,9 @@ function Skills() {
           <h>Ant Design</h>
         </image>
         <image>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"
+        alt="Node js"
+        />
 
            <h>Node js</h>
         </image>

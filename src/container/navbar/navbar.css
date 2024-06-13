@@ -51,6 +51,13 @@ body {
   font-style: normal;
   margin-left: 60px;
 }
+.menu-drawer{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start; */
+ /* margin-right: 100px; */
+}
+
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
@@ -71,6 +78,11 @@ body {
   }
 
   .logo {
+    
     margin: 10px 0;
   }
+  .menu-drawer{
+    /* position: absolute; */
+    margin-right: 80px;
+    }
 }

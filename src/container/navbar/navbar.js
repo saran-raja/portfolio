@@ -1,13 +1,43 @@
 import React from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
+// import { MenuOutlined } from "@ant-design/icons";
+import { useState } from 'react';
+// import {Drawer, Space } from 'antd';
 
 function Navbar() {
+  // const [open, setOpen] = useState(false);
+  // const [size, setSize] = useState();
+  // const showDefaultDrawer = () => {
+  //   setSize('default');
+  //   setOpen(true);
+  // };
+  // const onClose = () => {
+  //   setOpen(false);
+  // };
   return (
     <div className="navbar-container">
       <section className="logo">
-        <h>Saran</h>
-      </section>
+      {/* <Space>
+      <MenuOutlined className="menu-drawer" type="primary" onClick={showDefaultDrawer} />
+        
+      </Space>
+      <Drawer
+        title={'Menu'}
+        placement="left"
+        size={size}
+        onClose={onClose}
+        open={open}
+        
+      >
+        <p>Home</p>
+        <p>About Me</p>
+        <p>Skills</p>
+        <p>Projects</p>
+        <p>contact</p>
+      </Drawer> */}
+      <h>Saran</h>
+    </section>
       <section>
         <ul className="navbar-ul">
           <Link

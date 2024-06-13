@@ -43,6 +43,11 @@ function Skills() {
           <h>Ant Design</h>
         </image>
         <image>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" />
+
+           <h>Node js</h>
+        </image>
+        <image>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
             alt="Java"

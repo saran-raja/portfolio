@@ -8,6 +8,7 @@ import Navbar from "./container/navbar/navbar";
 import Project from "./container/project/project";
 import Skills from "./container/skills/skills";
 import BackTop from "antd/es/float-button/BackTop";
+import Education from "./education/education";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Element name="test2" className="element">
         <About />
       </Element>
+      <Education />
       <Element name="test3" className="element">
         <Skills />
       </Element>

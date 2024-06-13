@@ -40,7 +40,7 @@ function Home() {
           <h2>
             I'm <span className="highlight">Saran</span>
           </h2>
-          <h3>Full stack developer</h3>
+          <h3 className="h3gif">Full stack developer</h3>
           <p>
             "I'm a proficient web designer, deeply committed to crafting
             visually stunning and user-friendly websites."

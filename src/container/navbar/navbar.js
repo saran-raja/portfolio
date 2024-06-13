@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 // import { MenuOutlined } from "@ant-design/icons";
-import { useState } from 'react';
+// import { useState } from 'react';
 // import {Drawer, Space } from 'antd';
 
 function Navbar() {

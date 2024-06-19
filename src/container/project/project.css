@@ -36,9 +36,63 @@
 .project-slider {
   width: 50%;
 }
+.project-container .weather-app img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;                                                                                                                                             
+}
+.weather-app{
+  width: 160px;
+  min-height: 200px;
+  border-radius: 10px;
+  background-color: rgb(72, 72, 72);
+  padding: 10px;
+}
+.weather-description{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  font-size: 10px;
+  font-style: normal;
+  text-align: justify;
+
+}
+.language-description{
+  font-size: 8px;
+  margin-top: -10px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-left: -34px;
+  justify-content: center;
+  
+}
+.language-description li{
+  font-size: 8px;
+list-style-type: none;  
+/* background-color: antiquewhite;  */
+
+}
+.project-links{
+ display: flex;
+ justify-content: space-around;
+}
+.project-links button{
+
+  width: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+  font-size: 10px;
+  font-style: normal;
+  border-radius: 4px;
+  border: none;
+
+}
 @media (max-width: 768px) {
     .project-slider {
         width: 80%;
         
       }
   }
+  

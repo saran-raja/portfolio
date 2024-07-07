@@ -34,6 +34,13 @@ function Skills() {
           />
           <h>React js</h>
         </image>
+        <image>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+            alt="bootstrap"
+          />
+          <h>bootstrap</h>
+        </image>
 
         <image>
           <img
@@ -43,11 +50,12 @@ function Skills() {
           <h>Ant Design</h>
         </image>
         <image>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"
-        alt="Node js"
-        />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"
+            alt="Node js"
+          />
 
-           <h>Node js</h>
+          <h>Node js</h>
         </image>
         <image>
           <img
@@ -58,10 +66,24 @@ function Skills() {
         </image>
         <image>
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+            alt="Express js"
+          />
+          <h>Express js</h>
+        </image>
+        <image>
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
             alt="MySQL"
           />
           <h>MySQL</h>
+        </image>
+        <image>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg"
+            alt="Sequelize"
+          />
+          <h>Sequelize</h>
         </image>
         <image>
           <img

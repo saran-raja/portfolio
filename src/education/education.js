@@ -14,7 +14,7 @@ function Education() {
         <div className="education-card">
           <h1>2021-2024</h1>
           <p>Bachelor of Engineering</p>
-          <p>K.S.R Rangasamy Institute Of Technology</p>
+          <p>Electrical And Electronics Engineering</p>
           <p>Kongu Engineering College</p>
         </div>
       </div>
